@@ -1,7 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
 import { Physics, useBox, usePlane } from "@react-three/cannon";
-import styles from "../../styles/cube.module.css";
 
 const Box = () => {
   const [ref, api] = useBox(() => ({
